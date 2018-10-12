@@ -1,0 +1,28 @@
+
+
+	body{
+		background-color:lightgray;
+		  font-weight: 600;
+	}
+	
+	.dekh{
+		color: #852828;
+		font-weight: bold; 
+	}
+	p{
+		color: black;
+	}
+	#myCarousel{
+		height:370px;
+	}
+
+	.navbar-brand{
+		color: white !important;
+	font-family: 'Attack on Courier';
+}
+
+h2{
+	font-weight: bold;
+		color: white;
+
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<title>Sites</title>
+	<link rel="icon" href="res/logo.png" type="image/png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="css\sites.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+				
+
+</head>
+<body>
+		<nav id="bootnav" class="navbar navbar-inverse">
+		  <div class="container-fluid">
+	   	 	 <div class="navbar-header">
+	     		 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	      		   	<span class="icon-bar"></span>
+	       		 	 <span class="icon-bar"></span>
+	             	 <span class="icon-bar"></span> 
+	             </button>
+	             <a class="navbar-brand" href="index.html">Istanbul</a>
+	      	 </div>
+	   		 <div class="collapse navbar-collapse" id="myNavbar">
+	    	 	 <ul class="nav navbar-nav">
+	      	 		 <li><a href="trans.html">Transportation</a></li> 
+	       			 <li><a href="sites.html">Sites</a></li> 
+	       			 <li><a href="V&V.html">Videos & Vlogs</a></li>
+	     	     </ul>
+	  	     </div>
+	   	  </div>
+		</nav>
+	
+	<div class="container" id="container">
+			<center><h1 id="loula">Sites</h1></center><br><br>
+			   
+					<div class="textOverImage">
+						   	<img class="image1" src="res/topkapi.png"  >
+			<div class="image-caption1">   
+			<h2>The Topkapı Palace</h2>
+			 <p class="para" >The Topkapı Palace , or the Seraglio, is a large museum in Istanbul, Turkey. In the 15th century, it served as the main residence and administrative headquarters of the Ottoman sultans
+							 </p>
+							 </div>
+							 </div>
+							 <br>
+							
+						
+			   
+						  <div class="textOverImage floatright">
+							<img class="image2"  src="res/posphore.png" >
+							<div class="image-caption2"><h2>The Bosporus</h2>
+							<p class="para">	The Bosporus also known as The Strait of Istanbul; Turkish: İstanbul Boğazı, is a narrow, natural strait and an internationally significant waterway located in northwestern Turkey. It forms part of the continental boundary between Europe and Asia, and separates Asian Turkey from European Turkey. The world's narrowest strait used for international navigation, the Bosporus connects the Black Sea with the Sea of Marmara, and, by extension via the Dardanelles, the Aegean and Mediterranean seas.</p>
+								</div>
+								 
+						  </div>
+						  <br>
+						  
+			   
+						  <div class="textOverImage">
+							<img class="image3"  src="res/resto.png">
+							<div class="image-caption3">
+								<h2>Al Medina Restaurent Isanbul</h2><p class="para">it's the best restaurent in Istanbul you can see more on their page facebook Al Madina Restaurant İstanbul مطعم المدينة اسطنبول> 
+								</p>
+								 </div>
+								 <br>
+						  </div>
+						  <div class="textOverImage floatright">
+								<img class="image4"  src="res/galata.png">
+								<div class="image-caption4"><h2>Galata Tower</h2><p class="para">This tower was built to replace the Great Tower (Megalos Pyrgos) a Byzantine tower which was destroyed in 1204 and no longer stands. The Galata Tower or Tower of Christ was constructed in 1348 by the Genoese during the Middle Ages. The tower was built to guard the entrance to the Golden Horn .</p>
+							  </div>
+							  </div>
+							  <br>
+							  <div class="textOverImage">
+									<img class="image5"  src="res/bazar.png">
+									<div class="image-caption5"><h2>The Grand Bazar Istanbul</h2><p class="para"> The Grand Bazaar  in Istanbul is one of the largest and oldest covered markets in the world, with 61 covered streets and over 4,000 shops which attract between 250,000 and 400,000 visitors daily. In 2014, it was listed No.1 among the world's most-visited tourist attractions with 91,250,000 annual visitors The Grand Bazar at Istanbul is often regarded as one of the first shopping malls of the world.</p>
+										</div>
+										 </div>
+										 <br>
+								  <div class="textOverImage floatright">
+									<img class="image6"  src="res/mosq.png">
+									<div class="image-caption6"><h2>The Rüstem Pasha Mosque</h2><p class="para">  The Rüstem Pasha Islamic cultural center was designed by Ottoman imperial architect Mimar Sinan for the grand vizier Rüstem Pasha (the husband of one of the daughters of Suleiman the Magnificent by Hürrem Sultan (Roxelana), Mihrimah Sultan). Rüstem Pasha died at age 61 in July 1561 and the mosque was built after his death from around 1561 until 1563. The mosque complex now hosts a religious school.</p>
+										 </div>
+										 
+								  </div>
+								  
+	
+	         </div>
+	</body>
+	
+	</html>
+	<script type="text/javascript">
+		$(".image-caption").slideDown();
+var lengthOfDiv = $(".textOverImage").length
+// alert(lengthOfDiv)
+for (let index =0; index <= lengthOfDiv ; index++) {
+    $(".image"+index).mouseenter(function(){
+        $(".image-caption"+index).css("display" , "block")
+    })
+    $(".image"+index).mouseleave(function(){
+        $(".image-caption"+index).css("display" , "none")
+    })
+    
+}
+	</script>

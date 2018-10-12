@@ -1,0 +1,90 @@
+
+#bootnav {
+  color: black;
+}
+.navbar-brand{
+		color: white !important;
+	font-family: 'Attack on Courier';
+}
+h1{
+  color: white;
+  font-weight: bold;
+}
+		body{
+   background-color: lightgrey;
+  font-weight: 600;
+}
+textOverImage{
+   float: left;;
+    width: 30%;
+    padding: 5px;
+	position: relative;
+	margin: 5px;
+	color: #333;
+    
+}
+.floatright
+{
+    float:right;
+}
+    .image-caption1 , .image-caption3, .image-caption5 {
+        display: none;
+	opacity: 0.8;
+	background:#cae5c1;
+	width: 290px;
+	position: absolute;
+	bottom: 0px;
+    padding: 5px;
+    float: left;
+    left: 250px;
+    width: 800px;
+    height: 344px
+    }
+    .image-caption2 , .image-caption4, .image-caption6{
+    display: none;
+	opacity: 0.8;
+	background:#cae5c1;
+	width: 290px;
+	position: absolute;
+	bottom: 0px;
+    padding: 5px;
+    float: right;
+    right: 250px;
+    width: 800px;
+    height: 344
+   }
+        
+.textOverImage{
+    transition:0.5s;
+    
+}
+    .textOverImage:hover{
+        transition: 0.9s;
+        transform:scale(0.9)
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .para{
+      position: relative;
+      left: 10px;
+      font-family:'cursive';
+      font-size: 25px
+  }
+  #container{
+      margin: 70px;
+      background-color: ;
+      height:1600px
+      
+  }
+  #loula{
+      font-family: 'Cloister Black Light';
+      font-size:40px ;
+      color: 
+  }
+  h2{
+      font-family: 'Cloister Black Light'
+  }
+	
